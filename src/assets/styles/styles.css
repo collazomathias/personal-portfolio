@@ -1,0 +1,18 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.relleno {
+    height: 1500px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit !important;
+}

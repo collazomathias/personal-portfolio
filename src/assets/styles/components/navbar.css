@@ -1,0 +1,68 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 120px);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px !important;
+    z-index: 2;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar-title {
+    min-width: 250px;
+    text-align: left;
+}
+
+.navbar-title h3 {
+    font-size: 36px;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar-title span {
+    font-size: 36px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar-navigation {
+    display: flex;
+    width: calc(100% - 200px);
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+}
+
+.navbar-navigation a {
+    min-width: 100px;
+    margin-left: 30px !important;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-navigation a:hover {
+    cursor: pointer;
+    text-shadow: black 2px 0 5px;
+}
+
+.background-visible {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 60px;
+}
+
+.background-visible .navbar-title h3 {
+    color: white;
+}
+
+.background-visible .navbar-navigation a {
+    color: white !important;
+}
+
+.background-visible .navbar-navigation a:hover {
+    text-shadow: white 2px 0 5px !important;
+}
